@@ -110,6 +110,7 @@ def flairtext():
      for l in range(len(sortedconf)):
       wikitext.write("|"+sortedconf[l])
       if (l+1) % 4 == 0: wikitext.write("|\n")
+ wikitext.write("\n\n*Created by /u/bakonydraco, available at /r/flairguide/wiki.*")
  wikitext.close()
 
 def inlinetext():
@@ -129,6 +130,7 @@ def inlinetext():
       teamindex = map(str,allteams.Filename).index(k)
       if str(teamrow.Shortcutinline[teamindex]) != "None": wikiinline.write("|"+str(teamrow.Name[teamindex])+"|\["+str(teamrow.Abbreviated[teamindex])+"]("+str(teamrow.Shortcutinline[teamindex])+")|["+str(teamrow.Abbreviated[teamindex])+"]("+str(teamrow.Shortcutinline[teamindex])+")|\n")
       else: wikiinline.write("|"+str(teamrow.Name[teamindex])+"|\["+str(teamrow.Abbreviated[teamindex])+"](#f/"+str(teamrow.Flair1[teamindex])+")|["+str(teamrow.Abbreviated[teamindex])+"](#f/"+str(teamrow.Flair1[teamindex])+")|\n")
+ wikiinline.write("\n\n*Created by /u/bakonydraco, available at /r/flairguide/wiki.*")
  wikiinline.close()
 
 def replaceimage(folder, image):
