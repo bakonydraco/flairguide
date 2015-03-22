@@ -70,15 +70,7 @@ a[href*="col22"]:before,.flair[class*="col22"]:before,.flair[class*="2cl22"]:aft
 a[href*="col23"]:before,.flair[class*="col23"]:before,.flair[class*="2cl23"]:after{width:805px;clip:rect(0,805px,20px,770px);margin-left:-770px}
 a[href*="col24"]:before,.flair[class*="col24"]:before,.flair[class*="2cl24"]:after{width:840px;clip:rect(0,840px,20px,805px);margin-left:-805px}
 a[href*="sheet1"]:before,.flair[class*="sheet1"]:before,.flair[class*="2sht1"]:after,.flair:before,.flair:after,a[href^="#f/"]:before,a[href^="#l/"]:before,a[href^="#i/"]:before,a[href*="?header"]:before{content:"";background-image:url(%%d1%%);height:20px;position:absolute;color:transparent;background-size:840px auto!important}
-a[href^="#i/"],a[href^="#i/"]:before{height:30px}
-a[href*="sheet2"]:before,.flair[class*="sheet2"]:before,.flair[class*="2sht2"]:after{background-image:url(%%d2%%)}
-a[href*="sheet3"]:before,.flair[class*="sheet3"]:before,.flair[class*="2sht3"]:after{background-image:url(%%d3%%)}
-a[href*="sheet4"]:before,.flair[class*="sheet4"]:before,.flair[class*="2sht4"]:after{background-image:url(%%other%%)}
-a[href*="sheet5"]:before,.flair[class*="sheet5"]:before,.flair[class*="2sht5"]:after{background-image:url(%%international%%)}
-a[href*="sheet6"]:before,.flair[class*="sheet6"]:before,.flair[class*="2sht6"]:after{background-image:url(%%asia%%)}
-a[href*="sheet7"]:before,.flair[class*="sheet7"]:before,.flair[class*="2sht7"]:after{background-image:url(%%discontinued%%)}
 a[href*="sheetl"]:before,.flair[class*="sheetl"]:before,.flair[class*="2shtl"]:after,a[href*="?header"]:before{background-image:url(%%logos%%)}
-a[href*="sheeti"]:before,a[href^="#i/"]:before{background-image:url(%%images%%)}
 .flair{margin-top:-18px}
 .flair:before,.flair:after{margin-top:15px}
 .commentarea .entry .flair{margin-top:-9px}
