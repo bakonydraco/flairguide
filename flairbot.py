@@ -124,26 +124,13 @@ def setflair(auth,body,r):
   r.send_message(auth, 'Team not found', "It looks like you were trying to set your flair for a team we don't have."+robotmessage)
   print "Team not found: " + team
   
-awardflairs = ["beard","artist","medal","contributor","brick","checkbox","tv","coach","media","player","ref","staff","fulmer","offtopicbelt"]
-awardtables = ["","","Alternate Flairs","/r/CFB Showdown Trophy History","The Battle for Texas Trophy History","/r/CFB Emeritus Mod","/r/CFB Artist","/r/CFB Patron","/r/CFB Top Scorer","/r/CFB Pick 'Ems","Best of /r/CFB","/r/CFB Contributor","Miscellaneous Contributions","132+ Teams in 132+ Days","35 Bowls in 17 Days","Complete History of CFB","/r/CFB Donor","/r/CFB ALS Ice Bucket Challenge","Thanksgiving Food Drive","/r/CFB Love Drive","/r/CFB Brickmason","Baylor Brick Fund","CFB Hall of Fame Brick Fund","Rose Bowl Brick Fund","UCF Brick Fund","/r/CFB Brick Fund V: The Magnificent Seven","/r/CFB Pollster","/r/CFB Promoter","Verified Coach","Verified Media","Verified Player","Verified Referee","Verified Staff","Fulmer Cup Committee Member","/r/CFB Off Topic Belt","Marching Band"]
+awardflairs = ["beard","artist","patron"]
+awardtables = ["","","/r/CFB Emeritus Mod","/r/CFB Artist","/r/CFB Patron"]
 def checkaward(auth,award,r):
  if not award in awardflairs: return(True)
- if award == "beard": tablenum = [5]
- if award == "artist": tablenum = [6]
- if award == "patron": tablenum = [7]
- if award == "medal": tablenum = [9,10]
- if award == "contributor": tablenum = [12,13,14,15]
- if award == "tophat": tablenum = [17,18,19]
- if award == "brick": tablenum = [21,22,23,24,25]
- if award == "checkbox": tablenum = [26]
- if award == "tv": tablenum = [27]
- if award == "coach": tablenum = [28]
- if award == "media": tablenum = [29]
- if award == "player": tablenum = [30]
- if award == "ref": tablenum = [31]
- if award == "staff": tablenum = [32]
- if award == "fulmer": tablenum = [33]
- if award == "offtopicbelt": tablenum = [34]
+ if award == "beard": tablenum = [2]
+ if award == "artist": tablenum = [3]
+ if award == "patron": tablenum = [4]
  awardswiki = r.get_wiki_page("cfb","awards")
  tables = awardswiki.content_md.split("##")
  returnflag = False

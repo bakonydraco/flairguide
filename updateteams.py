@@ -11,6 +11,7 @@ import os
 
 credentials = pandas.read_csv("credentials.txt")
 username, password, subreddit = credentials.item
+defaultflair = "rcfb"
 r = praw.Reddit(user_agent=subreddit+' Flair Bot')
 r.login(username,password)
 try:
@@ -58,7 +59,7 @@ def createimages():
   xfull = numcols*colwidth
   yfull = rowheight*(totalrow+1)
   fileimage = Image.new("RGBA", (xfull, yfull))
-  fileimage.paste(Image.open(folder+"/rcfb.png"),(0, 0))
+  fileimage.paste(Image.open(folder+"/"+defaultflair+".png"),(0, 0))
   for j in range(len(flairlocs)):
    fileimage.paste(Image.open(folder+"/"+flairlocs[j][0]+".png"),(int(flairlocs[j][2]),int(flairlocs[j][1])))
    row = int(flairlocs[j][1]*scalefactor)

@@ -69,12 +69,6 @@ a[href*="col21"]:before,.flair[class*="col21"]:before,.flair[class*="2cl21"]:aft
 a[href*="col22"]:before,.flair[class*="col22"]:before,.flair[class*="2cl22"]:after{width:770px;clip:rect(0,770px,20px,735px);margin-left:-735px}
 a[href*="col23"]:before,.flair[class*="col23"]:before,.flair[class*="2cl23"]:after{width:805px;clip:rect(0,805px,20px,770px);margin-left:-770px}
 a[href*="col24"]:before,.flair[class*="col24"]:before,.flair[class*="2cl24"]:after{width:840px;clip:rect(0,840px,20px,805px);margin-left:-805px}
-a[href*="col25"]:before,.flair[class*="col25"]:before,.flair[class*="2cl25"]:after{width:875px;clip:rect(0,875px,20px,840px);margin-left:-840px}
-a[href*="col26"]:before,.flair[class*="col26"]:before,.flair[class*="2cl26"]:after{width:910px;clip:rect(0,910px,20px,875px);margin-left:-875px}
-a[href*="col27"]:before,.flair[class*="col27"]:before,.flair[class*="2cl27"]:after{width:945px;clip:rect(0,945px,20px,910px);margin-left:-910px}
-a[href*="col28"]:before,.flair[class*="col28"]:before,.flair[class*="2cl28"]:after{width:980px;clip:rect(0,980px,20px,945px);margin-left:-945px}
-a[href*="col29"]:before,.flair[class*="col29"]:before,.flair[class*="2cl29"]:after{width:1015px;clip:rect(0,1015px,20px,980px);margin-left:-980px}
-a[href*="col30"]:before,.flair[class*="col30"]:before,.flair[class*="2cl30"]:after{width:1050px;clip:rect(0,1050px,20px,1015px);margin-left:-1015px}
 a[href*="sheet1"]:before,.flair[class*="sheet1"]:before,.flair[class*="2sht1"]:after,.flair:before,.flair:after,a[href^="#f/"]:before,a[href^="#l/"]:before,a[href^="#i/"]:before,a[href*="?header"]:before{content:"";background-image:url(%%d1%%);height:20px;position:absolute;color:transparent;background-size:840px auto!important}
 a[href^="#i/"],a[href^="#i/"]:before{height:30px}
 a[href*="sheet2"]:before,.flair[class*="sheet2"]:before,.flair[class*="2sht2"]:after{background-image:url(%%d2%%)}
