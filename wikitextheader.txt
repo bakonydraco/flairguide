@@ -1,0 +1,69 @@
+## Guidelines
+
+To edit flair:
+
+1. Find your conference and click the link to your school.
+2. A message window will pop up that is automatically populated with a message. Don't change anything in the message and click send.
+3. Return to /r/cfb. Your flair will update in under a minute.  
+
+## Dual Flair
+
+If you'd like to add a secondary flair, append the full name of the team exactly as it is listed below you would like second after a forward slash.  Do not change anything else, so it should be addressed to 'cfbflair', and the message line should be 'flair'.  For example, your message might be:
+
+    to: cfbflair
+    subject: flair
+    message: Boston College Eagles / Cal Poly Mustangs
+
+## Inline Flair
+
+Each Flair can also be written in a comment, along with several additional familiar faces.  See [Inline Flair](/r/cfb/wiki/inlineflair) for a guide to inline flair.
+
+## Awards
+
+We also offer a few [awards](/r/cfb/wiki/awards) for select users who have contributed to the community.  Some teams have also been awarded an alternate flair through subreddit contests.  
+
+If you have earned a flair you will be able to select or deselect it at any time like any other flair.  If you believe you have earned an award but cannot select it, see details on verifying your award at our [awards page](/r/cfb/wiki/awards).
+
+## Change Flair by Subreddit
+
+If you would like to change your flair for just one of the subreddits in the /r/CFB family, click [this message](http://www.reddit.com/message/compose/?to=cfbflair&subject=flairsub&message=Boston College Eagles%0ACFBUploads) instead, and modify the team name and the subreddit.
+
+## Other details
+
+Loading the flair through this system rather than through Reddit's traditional flair system, we are allowed to exceed the standard limit of 350 in the flair selector.  If your team is not listed here or your team's logo should be updated [message the mods](http://www.reddit.com/message/compose?to=%2Fr%2FCFB).  
+
+To hide your flair, toggle the checkbox next to your flair preview on the "Select Flair" Button.  You can also create a thread in which flair are not displayed by selecting the "Unflaired" Link flair after posting (click flair, and select "Unflaired"), or by including [Unflaired] or [Serious] in the title.
+
+## Our Flair
+
+We probably have your flair.  As long as your team: a) is a college, and b) has a past, present, or future football team, it is very likely that your flair is below.  The teams we offer includes: 
+
+* [FBS](/r/cfb/wiki/flair#wiki_fbs2)
+* [FCS](/r/cfb/wiki/flair#wiki_fcs2)
+* [D2](/r/cfb/wiki/flair#wiki_d2)
+* [D3](/r/cfb/wiki/flair#wiki_d3)
+* [NAIA](/r/cfb/wiki/flair#wiki_naia)
+* [USCAA](/r/cfb/wiki/flair#wiki_uscaa)
+* [CCCAA](/r/cfb/wiki/flair#wiki_cccaa)
+* [NJCAA](/r/cfb/wiki/flair#wiki_njcaa)
+* [Various Other American Teams](/r/cfb/wiki/flair#wiki_other)
+* [British Teams](/r/cfb/wiki/flair#wiki_bucs)
+* [Canadian Teams](/r/cfb/wiki/flair#wiki_cis)
+* [Mexican Teams](/r/cfb/wiki/flair#wiki_onefa)
+* [Australian Teams](/r/cfb/wiki/flair#wiki_gridiron_australia)
+* [Irish Teams](/r/cfb/wiki/flair#wiki_iafa)
+* [Japanese Teams](/r/cfb/wiki/flair#wiki_jafa)
+* [Chinese Teams](/r/cfb/wiki/flair#wiki_cafl)
+* [Indian Teams](/r/cfb/wiki/flair#wiki_efli)
+* [Korean Teams](/r/cfb/wiki/flair#wiki_kafa)
+* [Discontinued Teams](/r/cfb/wiki/flair#wiki_discontinued)
+
+We also offer several flair for things related to college football that aren't teams, including:
+
+* [Neutral Flairs](/r/cfb/wiki/flair#wiki_neutral)
+* [Awards](/r/cfb/wiki/flair#wiki_awards)
+* [Conferences](/r/cfb/wiki/flair#wiki_conferences)
+* [Networks](/r/cfb/wiki/flair#wiki_networks)
+* [Bowls and Championships](/r/cfb/wiki/flair#wiki_postseason)
+* [Rivalries](/r/cfb/wiki/flair#wiki_rivalries)
+* [Discontinued Conferences](/r/cfb/wiki/flair#wiki_conferences2)

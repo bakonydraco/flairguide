@@ -1,0 +1,60 @@
+Inline flair allows you to display images like [](#l/rcfb) in a line or in a table.
+
+The format for doing so is \[/r/CFB](#l/rcfb), where you replace "rcfb" with the desired tag.  We use the '#l/' prefix so that:
+
+* We can modify all flairs at once, which preserves significant space in our stylesheet which is limited by Reddit
+* Clicking on inline flair no longer takes you to a blank page, but keeps you on the current page.  The flair still are not links, but this is preferable to a link to nowhere.
+
+The prefixes are as follows:
+
+* #f for team flair
+* #i for images
+* #l for other logos, including conferences, networks, playoffs, and bowls
+
+Writing the team name in brackets helps out our mobile users on apps that can't see the images, so that they can at least see a label for the image you are talking about.
+
+Additionally, if you want to hide text from being shown unless a user hovers over it, use the spoiler tag like this:
+
+* \[Hidden information](#s/spoiler), which appears as [Hidden information](#s/spoiler)
+
+D1 teams each have intuitive shorcuts.  Due to space constraints from Reddit, all teams can be listed in line, but the codes for non-D1 teams are a bit more complicated.  
+
+A complete list of flair codes is below.
+
+Prior to the 2014 season in response to an /r/CFB user poll, we also said goodbye to some [old friends](http://i.imgur.com/jgVt0OF.jpg) to make way for new faces.
+
+## An Alphabet
+
+/u/Hal_Incandenza has created [an app](http://rcfb-flairgen.rhcloud.com/) that makes writing messages with team flair much easier.  You can also use the letter shortcuts below.
+
+/u/Karosi created a [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/rcfb-easy-flair/) that also makes writing flair easier.
+
+|Name|Code|Result|
+|:--|:--|:-:|
+|Army Black Knights|\[A](#f/a)|[A](#f/a)|
+|Benedictine (IL) Eagles|\[B](#f/b)|[B](#f/b)|
+|Chattanooga Mocs|\[C](#f/c)|[C](#f/c)|
+|Dartmouth Big Green|\[D](#f/d)|[D](#f/d)|
+|Eastern Michigan Eagles|\[E](#f/e)|[E](#f/e)|
+|Southeastern Fire|\[F](#f/f)|[F](#f/f)|
+|Grambling State Tigers|\[G](#f/g)|[G](#f/g)|
+|Hawai'i Rainbow Warriors|\[H](#f/h)|[H](#f/h)|
+|Illinois Fighting Illini|\[I](#f/i)|[I](#f/i)|
+|Humboldt State Lumberjacks|\[J](#f/j)|[J](#f/j)|
+|Kalamazoo Hornets|\[K](#f/k)|[K](#f/k)|
+|Lycoming Warriors|\[L](#f/l)|[L](#f/l)|
+|Murray State Racers|\[M](#f/m)|[M](#f/m)|
+|Northwestern Wildcats|\[N](#f/n)|[N](#f/n)|
+|Ohio State Buckeyes|\[O](#f/o)|[O](#f/o)|
+|Purdue Boilermakers|\[P](#f/p)|[P](#f/p)|
+|Queen's University Gaels|\[Q](#f/q)|[Q](#f/q)|
+|Rice Owls|\[R](#f/r)|[R](#f/r)|
+|Stanford Cardinal|\[S](#f/s)|[S](#f/s)|
+|Tennessee Volunteers|\[T](#f/t)|[T](#f/t)|
+|Miami Hurricanes|\[U](#f/u)|[U](#f/u)|
+|Villanova Wildcats|\[V](#f/v)|[V](#f/v)|
+|Wofford Terriers|\[W](#f/w)|[W](#f/w)|
+|St. Francis Xavier X-Men|\[X](#f/x)|[X](#f/x)|
+|Yale Bulldogs|\[Y](#f/y)|[Y](#f/y)|
+|Akron Zips|\[Z](#f/z)|[Z](#f/z)|
+
