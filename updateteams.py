@@ -8,10 +8,12 @@ import math
 import praw
 from PIL import Image, ImageChops
 import os
+import time, datetime, calendar
+from time import gmtime, strftime
 
 credentials = pandas.read_csv("credentials.txt")
 username, password, subreddit = credentials.item
-defaultflair = "rcfb"
+defaultflair = "tophat"
 r = praw.Reddit(user_agent=subreddit+' Flair Bot')
 r.login(username,password)
 try:
@@ -74,8 +76,8 @@ def createimages():
    if str(teamrow.Shortcutinline[teamindex]) != "None": flaircoords.append('a[href="'+str(teamrow.Shortcutinline[teamindex])+'"]:before')
    if str(teamrow.Shortcutletter[teamindex]) != "None": flaircoords.append('a[href="'+str(teamrow.Shortcutletter[teamindex])+'"]:before')
    if len(flaircoords) > 0: flairw.write(','.join(flaircoords)+"{background-position:"+coln+" "+rown+"}")
-  fileimage.save("teamsheet/new"+i+".png")
-  replaceimage("teamsheet",i)
+  fileimage.save("teamsheet/new"+i.lower()+".png")
+  replaceimage("teamsheet",i.lower())
  flairw.close()
 
 def flairtext():
@@ -129,7 +131,7 @@ def inlinetext():
       else: wikiinline.write("|"+str(teamrow.Name[teamindex])+"|\["+str(teamrow.Abbreviated[teamindex])+"](#f/"+str(teamrow.Flair1[teamindex])+")|["+str(teamrow.Abbreviated[teamindex])+"](#f/"+str(teamrow.Flair1[teamindex])+")|\n")
  wikiinline.close()
 
-def replaceimage(image, folder):
+def replaceimage(folder, image):
  try:
   newimage = str(folder) + "/new" + str(image) + ".png"
   oldimage = str(folder) + "/" + str(image) + ".png"
